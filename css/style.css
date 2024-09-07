@@ -54,9 +54,10 @@ header .cover {
     right: 0;
     color: blueviolet;
 }
-/*=== Header Section ===*/
+/*/// Header Section ///*/
 /* =========================================================================================================================================== */
 /* =========================================================================================================================================== */
+/* Main Section */
 /* Camps And Programs */
 main .camps-Programs {
     background-color: #F2F4F7;
@@ -122,16 +123,124 @@ main .tuwaiqNums .numbers {
     align-items: center;
 }
 
+main .tuwaiqNums .cont-numbers {
+    position: relative;
+}
+
 main .tuwaiqNums .numbers .icon {
     background-color: rgb(97, 199, 201) !important;
     border-radius: 50%;
     width: fit-content;
+    position: absolute;
+    top: 0;
+    left: 50;
+
 }
 
 main .tuwaiqNums .numbers .icon i {
     color: #fff;
 }
+
+main .tuwaiqNums .numbers h3 {
+    color: rgb(97, 199, 201) !important;
+}
+
+main .tuwaiqNums .numbers h2 {
+    color: #4C3693;
+}
 /*=== Tuwaiq Numbers ===*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Tuwaiq Activities */
+main .tuwaiqActivities {
+    background-color: #4C3693;
+}
+
+main .tuwaiqActivities .activities {
+    border-radius: 10px;
+}
+
+main .tuwaiqActivities .activities .icon i {
+    color: #4C3693;
+}
+
+main .tuwaiqActivities .activities h3 {
+    color: rgb(97, 199, 201);
+}
+
+main .tuwaiqActivities .activities a button {
+    background-color: #4C3693; 
+    transition: all 0.3s;
+}
+
+main .tuwaiqActivities .activities a button:hover {
+    background-color: #fff;
+    color: #4C3693 !important; 
+}
+/*=== Tuwaiq Activities ===*/
+/*/// Main Section ///*/
+/* =========================================================================================================================================== */
+/* =========================================================================================================================================== */
+/* Footer Section */
+/* Partners */
+footer .partners {
+    background-color: #F2F4F7;
+}
+
+footer .partners h2 {
+    color: #4C3693;
+}
+/*=== Partners ===*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Newsletter */
+footer .newsletter {
+    background-color: rgb(97, 199, 201);
+}
+
+footer .newsletter input {
+    border-radius: 5px;
+    border: none;
+    outline: #4931AF;
+}
+
+footer .newsletter .btn-newsletter {
+    background-color: #4C3693 !important;
+    transition: all 0.3s;
+    border-radius: 15px;
+}
+
+footer .newsletter .btn-newsletter:hover {
+    color: #4C3693 !important;
+    background-color: #fff !important;
+}
+/*=== Newsletter ===*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Finish Footer */
+footer .finishFooter {
+    background-color: #4C3693;
+}
+
+footer .finishFooter .contIcon {
+    background-color: #fff !important;
+    width: fit-content;
+    border-radius: 50%;
+}
+
+footer .finishFooter .contIcon:hover {
+    padding: 6px !important;
+}
+
+footer .finishFooter .icon {
+    color: #4C3693;
+}
+
+/*=== Finish Footer ===*/
+/*/// Footer Section ///*/
 /*/// All Screens (Default) ///*/
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -164,6 +273,14 @@ main .tuwaiqNums .numbers .icon i {
     header nav .navbar-collapse ul .active {
         color: #4931AF !important;
     }
+
+    header .headerContent h2 {
+        font-size: 2.6rem !important;
+    }
+
+    header .headerContent a button {
+        font-size: 1.3rem !important;
+    }
     /*=== Header Section ===*/
 }
 /*/// Phones And Tablets, 992px And Down ///*/
@@ -171,9 +288,8 @@ main .tuwaiqNums .numbers .icon i {
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-height: 650px) {
+/* @media only screen and (min-height: 100vh) {
     nav {
         background-color: #fff !important;
     }
-
 } */

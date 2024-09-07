@@ -1,0 +1,255 @@
+/* Header Section */
+header {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+header nav {
+    z-index: 1000;
+    background-color: transparent !important;
+}
+
+header nav a {
+    color: #000 !important;
+    transition: all 0.3s;
+}
+
+header nav a:hover {
+    color: black !important;
+}
+
+header nav .login {
+    background-color: #4C3693;
+    color: rgb(97, 199, 201) !important;
+    border-radius: 10px;
+}
+
+header nav .login:hover {
+    color: rgb(97, 199, 201) !important;
+}
+/*/// Header Section ///*/
+/* =========================================================================================================================================== */
+/* =========================================================================================================================================== */
+/* Main Section */
+/* Statistics Section */
+main .statistics {
+    /* height: 95vh; */
+}
+
+main .statistics video {
+    border-radius: 15px;
+}
+
+main .statistics .statistic .teachers,
+main .statistics .statistic .students, 
+main .statistics .statistic .registers {
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+main .statistics .statistic .teachers {
+    background-color: #D3F5D5;
+    width: 48.5% !important;
+    height: 100% !important;
+}
+
+main .statistics .statistic .students {
+    background-color: #BED9FF;
+    width: 48.5% !important;
+    height: 100% !important;
+}
+
+main .statistics .statistic .registers {
+    background-color: #E7DDFF;
+    width: 98% !important;
+    height: 47.5% !important;
+}
+
+main .statistics .statistic .teachers h3,
+main .statistics .statistic .teachers .icon i {
+    color: #8FD393;
+}
+
+main .statistics .statistic .students h3,
+main .statistics .statistic .students .icon i {
+    color: #5C90D8;
+}
+
+main .statistics .statistic .registers h3,
+main .statistics .statistic .registers .icon i {
+    color: #6433D3;
+}
+
+main .statistics .statistic h4 {
+    color: rgb(156, 156, 156);
+}
+
+main .statistics .statistic .teachers .icon,
+main .statistics .statistic .students .icon, 
+main .statistics .statistic .registers .icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 5rem;
+    margin-bottom: -10px;
+}
+/*=== Statistics Section ===*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Title Of About Tuwaiq */
+main .titleTuwaiq {
+    background-color: #F2F4F7;
+    padding: 20vh 1vw;
+}
+
+main .titleTuwaiq h1 {
+    font-size: 4rem;
+    font-weight: bold
+}
+
+main .titleTuwaiq p {
+    font-size: 1.65rem;
+    line-height: 2rem;
+}
+/*=== Title Of About Tuwaiq ===*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Submissions */
+main .submissions {
+    padding: 15vh 1vw;
+}
+
+main .submissions h1 {
+    font-size: 4rem;
+    font-weight: bold
+}
+
+main .submissions .rectangular {
+    width: 100%;    
+    background-color: #F2F4F7;
+    border-radius: 15px;
+    border: 1px solid #d2d3d4;
+}
+
+main .submissions .rectangular h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+main .submissions .rectangular .icon i {
+    font-size: 4rem;
+}
+
+main .submissions .camps .icon i,
+main .submissions .camps h2 {
+    color: #FF8181;
+}
+
+main .submissions .Programs .icon i,
+main .submissions .Programs h2 {
+    color: #FFDB5E;
+}
+
+main .submissions .education .icon i,
+main .submissions .education h2 {
+    color: #4D96FF;
+}
+
+main .submissions .world .icon i,
+main .submissions .world h2 {
+    color: #F5A664;
+}
+
+main .submissions .community .icon i,
+main .submissions .community h2 {
+    color: #A480FF;
+}
+
+main .submissions .meetings .icon i,
+main .submissions .meetings h2 {
+    color: #80D883;
+}
+/*=== Submissions ===*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* International */
+main .international {
+    background-color: #F2F4F7;
+    padding: 15vh 1vw;
+}
+
+main .international h1 {
+    font-size: 4rem;
+    font-weight: bold
+}
+
+main .international .rectangular {
+    border-radius: 10px;
+}
+
+main .international .rectangular .icon i {
+    color: #F5E598;
+}
+
+main .international .rectangular h4 {
+    color: rgb(156, 156, 156);
+}
+/*=== International ===*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Location */
+main .location {
+    background-color: #F3F8FF;
+    
+}
+
+main .location .icon i {
+    color: #4D96FF !important;
+}
+
+main .location h3 {
+    color: rgb(156, 156, 156);
+}
+/*=== Location ===*/
+/*/// Main Section ///*/
+/* =========================================================================================================================================== */
+/* =========================================================================================================================================== */
+/* Footer Section */
+footer {
+    background-color: #E3D8FF;
+    border-radius: 25px;
+    margin-bottom: 0 !important;
+}
+
+footer .partOne h4 {
+    color: #4C3693 !important;
+}
+
+footer .partOne img {
+    width: 200px !important;
+}
+
+footer hr {
+    color: #fff;
+}
+
+footer .partTwo h6 {
+    color: #4C3693;
+}
+
+footer .partTwo .contIcon {
+    background-color: #4C3693;
+    border-radius: 30px;
+    padding: 5px 10px !important;
+}
+
+footer .partTwo .contIcon .icon {
+    color: #fff;
+}
+/*/// Footer Section ///*/
