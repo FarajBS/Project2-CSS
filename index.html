@@ -7,6 +7,10 @@
         <title>Project-2 CSS</title>
         <!-- Begin: Css Files -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
         <!-- End: Css Files --> 
     </head>
@@ -17,8 +21,79 @@
     <!-- Begin: Body Section -->
     <body>
         <!-- Begin: Header Section -->
-        <header>
+        <header class="position-relative w-100 h-100">
+            <!-- Begin: Navbar Section -->
+            <nav class="navbar navbar-expand-lg pt-3 fixed-top">
+                <div class="container-fluid me-5">
+                    <a class="navbar-brand" style="width: 200px;" href="index.html">
+                        <img src="images/logo.png" class="img-fluid" alt="Logo Of Website">
+                    </a>
 
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 p-3">
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link active fs-5 fw-lighter" aria-current="page" href="index.html">
+                                    الرئيسية
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 fw-lighter" href="https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL">
+                                    المعسكرات والبرامج
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 fw-lighter" href="about-tuwaiq.html">
+                                    حول الأكاديمية
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 fw-lighter" href="#">
+                                    الأكاديميات التابعة
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 fw-lighter" href="https://tuwaiq.edu.sa/testcenter">
+                                    مركز الاختبارات
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex w-25">
+                            <a class="nav-link fs-4 fw-normal login" href="https://auth.tuwaiq.edu.sa/Identity/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%3Fclient_id%3Dtuwaiq_landing%26redirect_uri%3Dhttps%253A%252F%252Ftuwaiq.edu.sa%252Fsignin-oidc%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520email%2520roles%2520identity_service_scope%2520initiatives_service_scope%2520forms_service_scope%2520landing_page_service_scope%2520operation_service_scope%26code_challenge%3DIh1VyEpwLc3MwgF4HR4FzEIBaDTBmeUr2RB46OrPZEs%26code_challenge_method%3DS256%26response_mode%3Dform_post%26nonce%3D638612178940738158.NGYwZDdhZmUtOGU0ZC00MmQ0LThjNDEtMWVhMmIyNzdkN2Y2YzljOWNiNzYtN2EyYS00MzM4LTlmOWQtM2Q2NDQ4ODhlMDA4%26state%3DCfDJ8ONEATzewh1IuKuuA9gfdPOTMmVvB6sbiSgmGvnd7zyANxZ3K-1XSlVkZMROSWL3cxeGtYVsQ8dMW9k_lk-CyC_OkzxrNcjetgGoK4xM6f_N9XBAmdkiV-GA0NgpEYAWtrDn4-vrFVqrhrl9tCHqDQWbK5Z0VLxU0o-yzzwZGU3EwTWPXqYqJvxL5Uhpbs7GqaB9RSxgAKuXR7Vt2-jnjxI8HRFBS8JTvBpjDLt7EpgB-d42yRdJ4vUSvVloPp9a9WP6j2wamWQdg7xvGIDk32vWIQRoKdZlm-gS6sRRpAn5f6plvUP3Vyv_pKnDMnRm_YGFZBDQNSKs0aSAwrE8xmdV_a3N0YGbJcqiwY5xqgixzNZY87jdw_vT0W-weF3Ilw%26x-client-SKU%3DID_NET6_0%26x-client-ver%3D6.35.0.0%26prompt%3D">
+                                تسجيل الدخول
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End: Navbar Section -->
+             
+            <!-- ============================================================================================================================ -->
+            <!-- ============================================================================================================================ -->
+
+            <!-- Begin: Content For Header -->
+            <div class="headerContent">
+                <video src="https://tuwaiq.edu.sa/videos/introS2.mp4" style="max-height: 100vh; width: 100%" class="object-fit-cover" autoplay></video>
+
+                <div class="cover"></div>
+            
+                <div class="position-absolute top-50 start-50 translate-middle text-center w-50 mt-5">
+                    <h2 class="text-light fw-bold" style="font-size: 5.5em;">تعلم تقنيات</h2>
+
+                    <h2 class="text-light fw-bold" style="font-size: 5.5em;">المستقبل</h2>
+
+                    <a href="https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL"><button class="btn btn-info w-75 rounded-pill text-light fw-bold mt-3" style="font-size: 2rem;">ابدأ الآن</button></a>
+                </div>
+            </div>
+            <!-- End: Content For Header -->
         </header>
         <!-- Begin: Header Section -->
 
@@ -26,7 +101,105 @@
         <!-- ================================================================================================================================ -->
 
         <!-- Begin: Main Section -->
+        <main>
+            <!-- Begin: Camps And Programs -->
+            <section class="camps-Programs py-5 text-center">
+                <div class="container">
+                    <h2 class="fs-2 fw-bold">المعسكرات والبرامج</h2>
+                    <div class="row my-5">
+                        <div class="col-sx-12 col-md-4">
+                            <div class="bg-light py-5 px-4 text-end campsProgramsCard">
+                                <h4>لقاء</h4>
 
+                                <h3 class="fs-4 fw-bold mb-5">ثورة البيانات</h3>
+
+                                <div>
+                                    <i class="fa-solid fa-location-dot fs-6"></i> <span class="fs-6">الرياض</span>
+                                    <i class="fa-solid fa-calendar-minus fs-6 me-3"></i> <span class="fs-6">يوم واحد</span>
+                                </div>
+
+                                <div class="d-flex justify-content-between mt-3">
+                                    <div><i class="fa-solid fa-calendar-days fs-6"></i> <span class="fs-6">يبدأ في 11/09/2024</span></div>
+                                    <a href="https://tuwaiq.edu.sa/bootcamp/LorMq9rw/view"><button class="btn btn-info rounded-pill bg-light fw-bold">التفاصيل</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ================================================================================================================ -->
+                        
+                        <div class="col-sx-12 col-md-4">
+                            <div class="bg-light py-5 px-4 text-end campsProgramsCard">
+                                <h4>برنامج</h4>
+
+                                <h3 class="fs-4 fw-bold mb-5">الدرونز الأساسي</h3>
+
+                                <div>
+                                    <i class="fa-solid fa-location-dot fs-6"></i> <span class="fs-6">الرياض</span>
+                                    <i class="fa-solid fa-calendar-minus fs-6 me-3"></i> <span class="fs-6">اسبوع واحد</span>
+                                </div>
+
+                                <div class="d-flex justify-content-between mt-3">
+                                    <div><i class="fa-solid fa-calendar-days fs-6"></i> <span class="fs-6">يبدأ في 22/09/2024</span></div>
+                                    <a href="https://tuwaiq.edu.sa/bootcamp/Wq76WMDP/view"><button class="btn btn-info rounded-pill bg-light fw-bold">التفاصيل</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ================================================================================================================ -->
+
+                        <div class="col-sx-12 col-md-4">
+                            <div class="bg-light py-5 px-4 text-end campsProgramsCard">
+                                <h4>معسكر</h4>
+
+                                <h3 class="fs-4 fw-bold mb-5">تعلّم الآلة</h3>
+
+                                <div>
+                                    <i class="fa-solid fa-location-dot fs-6"></i> <span class="fs-6">الرياض</span>
+                                    <i class="fa-solid fa-calendar-minus fs-6 me-3"></i> <span class="fs-6">11 أسابيع</span>
+                                </div>
+
+                                <div class="d-flex justify-content-between mt-3">
+                                    <div><i class="fa-solid fa-calendar-days fs-6"></i> <span class="fs-6">يبدأ في 29/09/2024</span></div>
+                                    <a href="https://tuwaiq.edu.sa/bootcamp/ER1LVQKN/view"><button class="btn btn-info rounded-pill bg-light fw-bold">التفاصيل</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL"><button class="btn w-25 rounded-pill text-light fs-5 fw-bold campsPrograms-btn">المزيد من المعسكرات والبرامج</button></a>
+                </div>
+            </section>
+            <!-- End: Camps And Programs -->
+
+            <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+            <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+            <!-- ---------------------------------------------------------------------------------------------------------------------------- -->
+            
+            <!-- Begin: Tuwaiq Numbers -->
+            <section class="tuwaiqNums py-5 text-center">
+                <div class="container">
+                    <h2 class="fs-2 fw-bold">أرقام الأكاديمية</h2>
+                    <div class="row my-5">
+                        <div class="col-sx-12 col-md-3">
+                            <div class="bg-light py-5 px-4 numbers">
+                                <div class="icon p-3 "><i class="fa-brands fa-space-awesome fs-1"></i></div>
+
+                                <h3>عدد المعسكرات والبرامج</h3>
+
+                                <h2>500+</h2>
+
+                                <h4>معسكر وبرنامج</h4>
+                            </div>
+                        </div>
+
+                        <!-- ================================================================================================================ -->
+
+
+                    <a href="https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL"><button class="btn w-25 rounded-pill text-light fs-5 fw-bold numbers-btn">اقرأ تقرير منجزات الأكاديمية</button></a>
+                </div>
+            </section>
+            <!-- End: Tuwaiq Numbers -->
+        </main>
         <!-- Begin: Main Section -->
 
         <!-- ================================================================================================================================ -->

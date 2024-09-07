@@ -1,0 +1,179 @@
+/* All Screens (Default) */
+/* For All In The Website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/*=== For All In The Website ===*/
+/* =========================================================================================================================================== */
+/* =========================================================================================================================================== */
+/* Body */
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-family: IBMPlexSansArabic, sans-serif !important;
+}  
+/*=== Body ===*/
+/* =========================================================================================================================================== */
+/* =========================================================================================================================================== */
+/* Elements */
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+/*=== Elements ===*/
+/* =========================================================================================================================================== */
+/* =========================================================================================================================================== */
+/* Header Section */
+header {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+header nav {
+    z-index: 1000;
+}
+
+header nav a {
+    color: #fff !important;
+    transition: all 0.3s;
+}
+
+header nav a:hover {
+    color: rgb(97, 199, 201) !important;
+}
+
+header .cover {
+    background: linear-gradient(to left, rgba(144, 54, 228, 0.65), rgba(97, 199, 201, 0.65));
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: blueviolet;
+}
+/*=== Header Section ===*/
+/* =========================================================================================================================================== */
+/* =========================================================================================================================================== */
+/* Camps And Programs */
+main .camps-Programs {
+    background-color: #F2F4F7;
+}
+
+main .camps-Programs .container h2,
+main .tuwaiqNums h2 {
+    color: #4C3693;
+}
+
+main .camps-Programs .campsProgramsCard {
+    border-radius: 10px;
+    border-right: 10px solid rgb(97, 199, 201);
+    transition: all 0.3s;
+}
+
+main .camps-Programs .campsProgramsCard:hover {
+    margin: -0.5rem !important;
+}
+
+main .camps-Programs .campsProgramsCard h4 {
+    color: rgb(97, 199, 201);
+}
+
+main .camps-Programs .campsProgramsCard i {
+    color: rgb(156, 156, 156);
+}
+
+main .camps-Programs .campsProgramsCard button {
+    color: rgb(97, 199, 201);
+    transition: all 0.3s;
+}
+
+main .camps-Programs .campsProgramsCard button:hover {
+    color: #fff;
+    background-color: rgb(9, 159, 161) !important;
+}
+
+main .camps-Programs .campsPrograms-btn,
+main .tuwaiqNums .numbers-btn {
+    color: #4C3693 !important;
+    background-color: transparent;
+    border: 1px solid #4C3693;
+    transition: all 0.3s;
+}
+
+main .camps-Programs .campsPrograms-btn:hover,
+main .tuwaiqNums .numbers-btn:hover {
+    color: #fff !important;
+    background-color: #4C3693 !important;
+}
+/*=== Camps And Programs ===*/
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Tuwaiq Numbers */
+main .tuwaiqNums .numbers {
+    box-shadow: 0px 5px 5px rgb(168, 168, 168);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .tuwaiqNums .numbers .icon {
+    background-color: rgb(97, 199, 201) !important;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+main .tuwaiqNums .numbers .icon i {
+    color: #fff;
+}
+/*=== Tuwaiq Numbers ===*/
+/*/// All Screens (Default) ///*/
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/*/// Phones And Tablets, 992px And Down ///*/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 991px) {
+    /* Header Section */
+    header nav .container-fluid {
+        margin: 0 !important;
+    }
+
+    header nav .navbar-collapse {
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        background-color: #fff;
+    }
+
+    header nav .navbar-collapse a {
+        color: rgb(156, 156, 156) !important;
+        margin-right: 10px;
+        font-size: 1.5rem !important;
+    }
+
+    header nav .navbar-collapse .login {
+        font-size: 1.85rem !important;
+    }
+
+    header nav .navbar-collapse ul .active {
+        color: #4931AF !important;
+    }
+    /*=== Header Section ===*/
+}
+/*/// Phones And Tablets, 992px And Down ///*/
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-height: 650px) {
+    nav {
+        background-color: #fff !important;
+    }
+
+} */
