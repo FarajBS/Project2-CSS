@@ -32,10 +32,6 @@ header nav .login:hover {
 /* =========================================================================================================================================== */
 /* Main Section */
 /* Statistics Section */
-main .statistics {
-    /* height: 95vh; */
-}
-
 main .statistics video {
     border-radius: 15px;
 }
@@ -206,7 +202,6 @@ main .international .rectangular h4 {
 /* Location */
 main .location {
     background-color: #F3F8FF;
-    
 }
 
 main .location .icon i {
